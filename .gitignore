@@ -1,0 +1,43 @@
+# Ambientes virtuais
+venv/
+env/
+ENV/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / packaging
+dist/
+build/
+*.egg-info/
+
+# Arquivos de teste
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos de ambiente e configuração
+.env
+*.log
+schema.sql
+demo/public/graph_data.json
+
+# Arquivos de cache
+.cache/
+.python-version
+
+# Arquivos de dados
+*.pkl
+*.json
+*.csv
+!requirements.txt
